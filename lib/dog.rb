@@ -20,7 +20,7 @@ end
 def self.print_all
   @@all.each do |o|
   puts o.name
-end
+  end
 end
 
 end
