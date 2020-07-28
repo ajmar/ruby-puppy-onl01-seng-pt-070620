@@ -18,9 +18,8 @@ def self.clear_all
 end
 
 def self.print_all
-
-  print_all.map do |o|
-   puts "#{0}"
+  @@all.each do |o|
+  puts o.name
 end
 end
 
