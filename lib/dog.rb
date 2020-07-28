@@ -18,7 +18,9 @@ def self.clear_all
 end
 
 def self.print_all
-  puts @@all(name)
+
+  print_all.map do |o|
+   puts "#{0}"
 end
 
 end
