@@ -22,5 +22,6 @@ def self.print_all
   print_all.map do |o|
    puts "#{0}"
 end
+end
 
 end
